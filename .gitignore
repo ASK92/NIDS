@@ -49,9 +49,9 @@ data/*.zip
 !data/demo_flows.csv
 !data/*-sample.csv
 
-# Model files (too large for GitHub - use Git LFS or exclude)
-models/*.joblib
-models/*.pth
+# Model files - now using Git LFS (commented out to allow LFS tracking)
+# models/*.joblib
+# models/*.pth
 
 # Outputs (generated files)
 outputs/*.png
