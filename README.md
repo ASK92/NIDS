@@ -739,7 +739,7 @@ Config.DEBUG_SAMPLE_SIZE = 50000  # Use 50K samples instead of full dataset
 
 ## 👥 Authors & Contributors
 
-**ML Security Engineering Team**  
+**Aditya Srikar Konduri**  
 Version: 1.0  
 Last Updated: December 2025
 
