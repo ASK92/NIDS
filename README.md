@@ -1,6 +1,6 @@
 # Network Intrusion Detection System (NIDS) using Machine Learning
 
-## 🛡️ Project Overview
+##  Project Overview
 
 This project implements a **production-grade Network Intrusion Detection System (NIDS)** using machine learning to identify malicious network traffic in real-time. The system leverages ensemble tree-based classifiers and deep neural networks to detect various attack types including DoS/DDoS, Brute Force, Web Attacks, Botnet, Port Scanning, Data Exfiltration, and Malware.
 
@@ -15,7 +15,7 @@ This project implements a **production-grade Network Intrusion Detection System 
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 1. [Executive Summary](#executive-summary)
 2. [Problem Statement](#problem-statement)
@@ -34,7 +34,7 @@ This project implements a **production-grade Network Intrusion Detection System 
 
 ---
 
-## 🎯 Executive Summary
+##  Executive Summary
 
 ### Business Impact
 
@@ -50,7 +50,7 @@ This project implements a **production-grade Network Intrusion Detection System 
 
 ---
 
-## 🔍 Problem Statement
+##  Problem Statement
 
 ### Current Challenges
 
@@ -70,7 +70,7 @@ ML-based approaches offer:
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 ### Primary Dataset: NF-CSE-CIC-IDS2018-v2
 
@@ -124,7 +124,7 @@ SRC_TO_DST_SECOND_BYTES, TCP_FLAGS, TCP_WIN_MAX_IN, TCP_WIN_MAX_OUT
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 
@@ -165,7 +165,7 @@ python -c "import pandas as pd; import numpy as np; import sklearn; import xgboo
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ML Final Project V3.0/
@@ -194,7 +194,7 @@ ML Final Project V3.0/
 
 ---
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ### 1. Ensemble Tree-Based Models
 
@@ -248,7 +248,7 @@ class DataPreprocessor:
 
 ---
 
-## 🎓 Training Process
+##  Training Process
 
 ### Step 1: Data Loading
 
@@ -329,7 +329,7 @@ For better cross-dataset generalization:
 
 ---
 
-## 📈 Evaluation Results
+##  Evaluation Results
 
 ### Primary Dataset Performance (NF-CSE-CIC-IDS2018)
 
@@ -381,7 +381,7 @@ For better cross-dataset generalization:
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ### Gradio Web Application
 
@@ -460,7 +460,7 @@ docker run -p 7860:7860 network-ids-app
 
 ---
 
-## 📖 Usage Guide
+##  Usage Guide
 
 ### Running the Full Pipeline
 
@@ -538,7 +538,7 @@ df['prediction'] = np.where(y_pred == 1, 'ATTACK', 'BENIGN')
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -600,7 +600,7 @@ Config.DEBUG_SAMPLE_SIZE = 50000  # Use 50K samples instead of full dataset
 
 ---
 
-## 🔑 Key Findings
+##  Key Findings
 
 ### 1. Domain Adaptation is Critical
 
@@ -647,7 +647,7 @@ Config.DEBUG_SAMPLE_SIZE = 50000  # Use 50K samples instead of full dataset
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 ### Short-Term (1-3 months)
 
@@ -712,7 +712,7 @@ Config.DEBUG_SAMPLE_SIZE = 50000  # Use 50K samples instead of full dataset
 
 ---
 
-## 📚 References
+##  References
 
 ### Datasets
 
@@ -737,7 +737,7 @@ Config.DEBUG_SAMPLE_SIZE = 50000  # Use 50K samples instead of full dataset
 
 ---
 
-## 👥 Authors & Contributors
+##  Authors & Contributors
 
 **Aditya Srikar Konduri**  
 Version: 1.0  
@@ -745,7 +745,7 @@ Last Updated: December 2025
 
 ---
 
-## 📄 License
+##  License
 
 MIT License
 
@@ -771,7 +771,7 @@ SOFTWARE.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Canadian Institute for Cybersecurity (CIC) for NF-CSE-CIC-IDS2018 dataset
 - University of New South Wales (UNSW) for UNSW-NB15 dataset
@@ -780,7 +780,7 @@ SOFTWARE.
 
 ---
 
-## 📞 Support & Contact
+##  Support & Contact
 
 For questions, issues, or contributions:
 - Open an issue on GitHub
@@ -788,7 +788,7 @@ For questions, issues, or contributions:
 
 ---
 
-## 🔄 Changelog
+##  Changelog
 
 ### Version 1.0 (December 2025)
 - Initial release
